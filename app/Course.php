@@ -4,6 +4,11 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * App\Course
+ *
+ * @mixin \Eloquent
+ */
 class Course extends Model
 {
     const PUBLISHED = 1;
