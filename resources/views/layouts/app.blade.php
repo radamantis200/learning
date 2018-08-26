@@ -78,7 +78,7 @@
                     <div class="col-md-10">
                         <div class="alert alert-{{ session('message')[0]}}">
                             <h4 class="alert-heading">{{__("Mensaje informativo")}}</h4>
-                            <p>{{session('message')[1]}</p>
+                            <p>{{session('message')[1]}}</p>
                         </div>
                     </div>
                 </div>
