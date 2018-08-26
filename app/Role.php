@@ -8,6 +8,16 @@ use Illuminate\Database\Eloquent\Model;
  * App\Role
  *
  * @mixin \Eloquent
+ * @property int $id
+ * @property string $name Nombre del rol de usuario
+ * @property string $description
+ * @property \Carbon\Carbon|null $created_at
+ * @property \Carbon\Carbon|null $updated_at
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Role whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Role whereDescription($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Role whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Role whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Role whereUpdatedAt($value)
  */
 class Role extends Model
 {
