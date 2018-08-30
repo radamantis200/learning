@@ -23,6 +23,8 @@
 </head>
 <body>
     @include('partials.navigation')
+
+    @yield('jumbotron')
     <div id="app">
 
 
