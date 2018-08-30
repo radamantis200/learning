@@ -75,6 +75,6 @@ class Course extends Model
     }
 
     public function teacher(){
-        return $this->belongsTo(Teacher::class)->select('id','name');
+        return $this->belongsTo(Teacher::class);
     }
 }
